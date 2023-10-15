@@ -1,0 +1,55 @@
+/* Общие стили для таблицы */
+table {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+
+/* Стили для шапки таблицы */
+table th {
+    background-color: #f8f9fd;
+    color: #415268;
+    font-weight: normal;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Стили для столбца "Должность" */
+td:nth-child(2) {
+    color: #4a519e;
+}
+
+/* Стили для столбца "Занятость" */
+td:nth-child(5) {
+    text-align: center;
+}
+
+/* Стили для разных типов занятости */
+td[data-employment="Full time"]
+{
+    border-radius: 5px;
+    background-color: #d4fbff;
+    color: #0073ee;
+}
+
+td[data-employment="Part time"]
+{
+    border-radius: 5px;
+    background-color: #fff6ab;
+    color: #ee8200;
+   
+}
+
+/* Изменение цвета фона при наведении на строку */
+table tr:hover {
+    background-color: #fafdff;
+}
+
