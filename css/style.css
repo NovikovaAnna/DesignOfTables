@@ -19,7 +19,7 @@ table th {
     color: #415268;
     font-weight: normal;
     text-align: left;
-    padding: 8px;
+    padding: .8rem 3rem;
 }
 
 /* Стили для столбца "Должность" */
@@ -45,7 +45,7 @@ td[data-employment="Part time"]
     border-radius: 5px;
     background-color: #fff6ab;
     color: #ee8200;
-   
+
 }
 
 /* Изменение цвета фона при наведении на строку */
